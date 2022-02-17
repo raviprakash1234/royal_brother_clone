@@ -1,0 +1,85 @@
+.main-container {
+  display: flex;
+}
+
+.filter {
+  height: 500px;
+  overflow-y: scroll;
+  border: 1px solid black;
+  border-top: none;
+}
+.left-container {
+  width: 25%;
+  margin-top: 90px;
+}
+
+.left-container h1 {
+  border-bottom: 1px solid gray;
+  /* margin-bottom: 19px; */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* vikas */
+
+.right-container {
+  width: 74%;
+
+  margin-top: 90px;
+  margin-bottom: 50px;
+  /* border: 1px solid green; */
+  margin-left: 1em;
+  /* height: 100vh; */
+}
+
+.filtered-data {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  justify-content: space-around;
+  text-align: center;
+  grid-gap: 1em;
+  width: 100%;
+  /* height: 100vh; */
+  margin-top: 15px;
+  /* border: 1px solid red; */
+}
+
+.main-heading {
+  display: flex;
+  padding-bottom: 6px;
+  border-bottom: 1px solid gray;
+}
+
+.data-div {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid grey;
+  box-shadow: 1px 2px 5px 0.5px grey;
+}
+/* .bottom-div {
+  
+} */
+.main-heading p {
+  margin-right: 1em;
+  color: gray;
+}
+
+.active {
+  border-bottom: 1px solid yellow;
+  color: black;
+}
+
+.medium-div,
+.bottom-div {
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  border-top: 0.1px solid rgb(212, 207, 207);
+  margin-top: 15px;
+  justify-content: space-between;
+  /* border: 1px solid yellow; */
+}

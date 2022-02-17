@@ -1,0 +1,72 @@
+.text-alignment{
+   text-align: center; 
+}
+.credit-card{
+ text-decoration: none;
+ color: black;
+  cursor: pointer;
+}
+.main-card{
+    width: 50rem;
+    margin-left: 3%;
+    height: 550px;
+}
+.child-card{
+    width: 18rem;
+    height: 507px;
+}
+.secondry-card{
+    margin-left: 2%;
+    width: 33%;
+    height: 20%;
+}
+.secandry-child{
+    text-align: center;
+    padding: 15px;
+}
+.credit-card-logo{
+ display: flexbox;
+ padding: 5%;
+}
+.credit-card-img{
+    width: 20%;
+   margin-left: 2%;
+   
+}
+.credit-card-model{
+    padding: 5%;
+    margin-left: 5%;
+    width: 50%;
+    height: 300px;
+}
+.credit-card-inp{
+    background: white;
+    width: 100%;
+    border: none;
+     outline: none;
+     height: 25px;
+}
+.month{
+    width: 15%;
+    background: white;
+    border: none;
+    outline: none;
+    height: 25px;
+}
+.year{
+    width: 15%;
+    background: white;
+    border: none;
+    outline: none;
+    margin-left: 3%;
+    height: 25px;
+}
+.cvv{
+    width: 30%;
+    background: white;
+    border: none;
+    outline: none;
+    margin-left: 15%;
+    height: 25px;
+}
+

@@ -1,0 +1,9 @@
+::-webkit-file-upload-button {
+    display: none;
+   
+  }
+.upload:hover{
+  background-color: gray;
+  width: 15%;
+}
+ 

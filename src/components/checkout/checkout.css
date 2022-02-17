@@ -1,0 +1,61 @@
+.dispaly{
+    display: flex;
+    gap: 5%;
+}
+.display-left-item{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    /* gap:3%; */
+}
+.margin-left-in-card{
+    margin-left: 10%;
+    display: flex;
+    padding-top: 8%;
+    padding-bottom: 3%;
+}
+/* .summary{
+ margin-left: 7%; 
+} */
+.end-date{
+    float:right;
+}
+.garage-title {
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.display-price{
+    display: flex;
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+  }
+
+  input:focus {
+      border-style: none;
+  }
+  
+  .no-outline {
+    outline: none;
+  }
+  .img-width{
+      width: 100%;
+  }
+  .honda{
+      text-align: center;
+      font-size: 25px;
+      font-weight: 900;
+  }
+  .to{
+      margin-left: 30%;
+      margin-top: 15px;
+  }
+  .display-checkout{
+      display: flex;
+  }

@@ -1,0 +1,116 @@
+*{
+    font-family: 'Mulish', sans-serif;;
+  }
+.mainFoot{
+    width:100%;
+    background-color: #373737;
+    padding-top: 40px;
+}
+
+.mainFootH{
+    width:85%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.sDivs1{
+    width:35%;
+}
+.barD{
+    float: left;
+}
+.sDivs2{
+    width:30%;
+    float: left;
+}
+.sDivs3{
+    width:30%;
+    float: left;
+}
+.sDivs11{
+    width:25%;
+}
+
+.sDivs12{
+    color: white;
+    width:30%;
+    margin-left: 110px;
+}
+
+.sDivs12 > div > img {
+    width: 30px;
+    margin-right: 40px;
+}
+
+.sDivs1>p{
+    color:white;
+}
+.sDivs2>p{
+    color:white;
+}
+
+
+.labelF{
+    margin-top: 20px;
+}
+.labelF>p{
+    color:white;
+    margin-top: 20px;
+}
+.labelF1{
+    margin-top: 20px;
+}
+.labelF1>p{
+    color:white;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.msg{
+    position: absolute;
+    z-index: 11;
+    margin-top: 6px;
+}
+.call{
+    position: absolute;
+    z-index: 11;
+    margin-top: 20px;
+}
+
+.labelI{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.labelIj{
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+}
+
+.labelIj > img {
+    margin-right: 30px;
+}
+
+
+.lastF{
+    background-color: #444444;
+    text-align: center;
+    margin: auto;
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.lastF>p{
+    font-size: 22px;   
+    letter-spacing: 2px;
+}
+
+.localities{
+    width:85%;
+    margin: auto;
+    color: white;
+    font-weight: 500;
+    margin-top: 1%;
+}
