@@ -1,7 +1,5 @@
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "./checkout.css"
-// import Card from '@mui/material/Card';
-// import Button from '@mui/material/Button';
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
